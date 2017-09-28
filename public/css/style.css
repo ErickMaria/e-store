@@ -1,0 +1,156 @@
+body {
+	background-color: whitesmoke;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Helvetica Neue", Helvetica, Arial;
+}
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+.footer {
+	background-color: gold;
+}
+
+.btn {
+	border-radius: 0px;
+}
+
+.price {
+	color: red;
+}
+
+.bg-gold {
+	background: gold;
+	color: black;
+}
+
+.navbar-brand {
+	padding-top: 0px;
+}
+
+.bg-white {
+	background-color: white;
+}
+
+.navbar-text {
+	padding: 3px;
+}
+
+.btn-transparent {
+	outline: none;
+	border: none;
+	box-shadow: none;
+	background: transparent;
+	padding: 10px;
+	padding-right: 20px;
+	text-align: center;
+}
+
+.input-transparent {
+	outline: none;
+	font-family: sans-serif;
+	font-size: 18px;
+	box-shadow: none;
+	border-radius: none;
+	border-color: transparent;
+	border-bottom: 2px solid;
+	background: transparent;
+}
+
+.input-transparent:hover {
+	outline: none;
+	box-shadow: none;
+	border-bottom: 2px solid;
+	border: none;
+	border: transparent;
+	border-bottom: 2px solid;
+}
+
+input[type="password"] {
+	outline: none;
+	font-family: sans-serif;
+	font-size: 18px;
+	box-shadow: none;
+	border-radius: none;
+	border-color: transparent;
+	border-bottom: 2px solid;
+	background: transparent;
+	width: 100%;
+}
+
+.category-desktop {
+	height: 40px;
+	border-top-color: white;
+	border-top: 2px solid;
+	color: whitesmoke;
+}
+
+.category-desktop-btn-dropdown-menu {
+	color: black;
+}
+
+.category-desktop-bg-black {
+	background-color: gold;
+}
+
+.margin-top-150 {
+	margin-top: 150px;
+}
+
+.margin-botton-150 {
+	margin-bottom: 150px;
+}
+
+.margin-botton-30{
+	margin-bottom: 30px;
+}
+
+.collapse-content a{
+	color: #111;
+	display: block;
+}
+	.collapse-content:hover a{
+	color: #fff;
+}
+	.collapse-content{
+	background-color: transparent;
+	padding: 9px;
+	border-left: 5px solid #111;
+	border-bottom: 1px solid #f1f1f1;
+	text-align: center;
+	font-size: 0.5cm;
+	-webkit-transition: width 1s, height 1s, background-color 1s, -webkit-transform 1s; /* Safari */
+	transition: width 1s, height 1s, background-color 1s, transform 1s;
+
+}
+.collapse-content:hover{
+	background-color: #363636;
+	border-left: 5px solid #fff;
+}
+
+.middle{
+	top: 50%;
+	left: 50%;
+}
+
+.inline-content{
+	height:auto;
+	white-space:nowrap;
+	overflow-x: scroll;
+	overflow-y: hidden;
+}
+
+.inline-inner{
+	display:inline-block;
+	width: 200px;
+}
+
+.input-radio-none{
+  list-style: none;
+	display: none;
+}
