@@ -52,3 +52,5 @@
     </table>
   </div>
 @endsection
+<script>
+</script>

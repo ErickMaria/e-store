@@ -36,12 +36,6 @@
 						</span>
 					</i>
         </button>
-				<style>
-					.dropdown-menu-cart{
-						right: -60px;
-						width: auto;
-					}
-				</style>
 				<div class="dropdown-menu dropdown-menu-right">
 					@include('inc.navbar_cart')
 				</div>

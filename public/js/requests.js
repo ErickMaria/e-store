@@ -29,7 +29,6 @@ $(document).ready(function(){
     
   // delete product on cart
   $("input:radio[name='cartDelete']").change(function () {
-    var 
     
     $.ajax({ 
       type: "GET", 
