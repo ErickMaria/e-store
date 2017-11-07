@@ -15,19 +15,16 @@
       </a>
 		</div>
 
-		<div class="col-xs-2">
-			<div class="dropdown">
-				<button class="navbar-btn btn-transparent" data-toggle="dropdown">
+		<div class="col-xs-2"><!--
+			<div class="dropdown"> -->
+				<button class="navbar-collapse navbar-btn btn-transparent" data-toggle="collapse" data-target="#user">
           <i class="fa fa-user-circle fa-lg"></i>
-        </button>
-				<div class="dropdown-menu dropdown-menu-right">
-					@include('inc.navbar_user')
-				</div>
-			</div>
+        </button><!--
+			</div>-->
 		</div>
-		<div class="col-xs-2">
-			<div class="dropdown">
-				<button class="navbar-btn btn-transparent" data-toggle="dropdown">
+		<div class="col-xs-2"><!--
+			<div class="dropdown"> -->
+				<button class="navbar-collapse navbar-btn btn-transparent" data-toggle="collapse" data-target="#cart">
           <i class="fa fa-shopping-cart fa-lg">
 						<span class="badge hidden-xs">
 							@if(isset($carts))
@@ -35,19 +32,29 @@
 							@endif
 						</span>
 					</i>
-        </button>
-				<div class="dropdown-menu dropdown-menu-right">
-					@include('inc.navbar_cart')
-				</div>
-			</div>
+        </button><!--
+			</div> -->
 		</div>
 		<br/>
 		<br/>
 		
-		<div class="collapse" id="categories">
+    <br>
+    <div style="background:white" class="collapse" id="cart">
+      <hr>
+			@include('inc.navbar_cart')
+      <br>
+		</div>
+    <br>
+    <div style="background:white" class="collapse" id="user">
+      
+      @include('inc.navbar_user')
+    </div>
+    <br>
+		<div style="background:white" class="collapse" id="categories">
+      
 			
 			@if(isset($categories))
-				<br>
+				
 				@foreach($categories as $category)
 					<div class="collapse-content">
 						<a href="{{ asset('filter_category') }}/{{ $category->id }}">

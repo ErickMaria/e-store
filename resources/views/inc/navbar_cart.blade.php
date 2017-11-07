@@ -1,6 +1,5 @@
-
 @if($carts->count() > 0)
-  <li>
+  <!-- <li> -->
     <div class="table-responsive">
       <table class="table table-bordered">
         <thead>
@@ -30,7 +29,7 @@
     <div class="text-center">
       <a href="{{ url('cart') }}">show cart</a>
     </div>
-  </li>
+  <!-- </li> -->
 @else
-  <li class="text-justify">&nbsp; No products in the Cart</li>
+  <div class="collapse-content text-justify">&nbsp; No products in the Cart</li>
 @endif

@@ -110,6 +110,13 @@ input[type="password"] {
 	margin-bottom: 30px;
 }
 
+.dropdown-menu-mobile{
+  position: absolute;
+  right: 30%;
+  width: 100;
+}
+
+
 .collapse-content a{
 	color: #111;
 	display: block;
@@ -134,6 +141,7 @@ input[type="password"] {
 }
 
 .middle{
+  position: absolute;
 	top: 50%;
 	left: 50%;
 }
